@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 25px;
+    display: flex;
+    /*  horizontal alignment */
+    justify-content: space-between;
+    /*  vertical alignment  */
+    align-items: center;
+    background-color: lightgray;
+}
+
+.main-body{
+    background-color: purple;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.photo{
+    width: 500px;
+    height: auto;
+    border: 5px solid lightgray;
+}
+.photo-frame{
+    padding: 30px;
+}
+
+.about-me{
+    margin: 30px;
+    background-color: silver;
+    width: 800px;
+    height: 332px;
+}
+
+.about-me-text{
+    color: white;
+    width: 70px;
+}
