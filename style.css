@@ -1,47 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header{
-    padding: 25px;
-    display: flex;
-    /*  horizontal alignment */
-    justify-content: space-between;
-    /*  vertical alignment  */
-    align-items: center;
-    background-color: lightgray;
+body {
+  width: 970px;
+  margin: 0 auto;
+  background: #211015;
+  font-family: sans-serif;
 }
 
-.main-body{
-    background-color: purple;
-    height: 800px;
-    display: flex;
-    justify-content: space-between;
+header {
+  background: #f8f8f8;
+  padding: 15px;
+  display: flex;
+
+  /* applying horizontal alignment */
+  justify-content: space-between;
+
+  /* applying vertical alignment */
+  align-items: center;
 }
 
-.name{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+.header-right {
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.photo{
-    width: 500px;
-    height: auto;
-    border: 5px solid lightgray;
-}
-.photo-frame{
-    padding: 30px;
+.wrapper {
+  padding: 25px;
 }
 
-.about-me{
-    margin: 30px;
-    background-color: silver;
-    width: 800px;
-    height: 332px;
+.upper-section {
+  display: flex;
 }
 
-.about-me-text{
-    color: white;
-    width: 70px;
+.main-pic {
+  width: 40%;
+  border: 5px solid #bdbcbd;
+  margin-right: 40px;
+}
+
+h3 {
+  background: #888693;
+  color: white;
+  padding: 12px 15px;
+}
+
+.about-me {
+  background: #e2d6e1;
+  padding: 12px;
+}
+
+.about-me p {
+  margin-bottom: 12px;
+  color: #4b536c;
+}
+
+.about-me a {
+  color: #4b536c;
+}
+
+.columns{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.column{
+  margin-top: 20px;
+  width: 280px;
+  height: 590px;
+  background-color: white;
+}
+.column-photo{
+  width: 280px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.header-bottom{
+  height: 35px;
+  background-color: silver;
+
+}
+.middle-text{
+  color: white;
+}
+.middle-par{
+  
+  padding: 15px;
+}
+
+.lower-text{
+  color: white;
+}
+
+
+.lan-images{
+  width: 40px;
+  height: auto;
+  display: inline-block;
+  margin-right: auto;
+
+}
+
+.icon-div{
+  margin: 29px;
+  display: inline-block;
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+.bottom-header {
+  background: #f8f8f8;
+  padding: 15px;
+  margin: 20px;
+  height: 70px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.bottom-image{
+  width: 15px;
+  height: auto;
+}
+
+.contact{
+ padding-bottom: 8px;
+
+}
+.social{
+  
 }
